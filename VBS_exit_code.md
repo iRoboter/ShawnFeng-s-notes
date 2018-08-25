@@ -1,6 +1,7 @@
+# VBS脚本退出码
 VBS脚本也可以有退出码，这里展示如何使用和获取。
 
-# 测试
+## 测试
 
 1、创建待测试VBS脚本保存名为tested.vbs：
 
@@ -13,12 +14,12 @@ VBS脚本也可以有退出码，这里展示如何使用和获取。
 
 3、将两个文件放在同一个目录下，执行test.bat即可看到控制台输出 999，这个数字就是来自VBS里的退出码999.
 
-# 说明
+## 说明
 * VBS不区分大小写
 * wscript.Quit 代表本脚本文件执行完成退出code，不能改写任何拼写
 
-# demo 源码
+## demo 源码
 [源码](https://github.com/iRoboter/mynotes/tree/master/VBS%20exit%20code)
 
-# 参考
+## 参考
 [参考资料：https://ss64.com/](https://ss64.com/vb/quit.html)
