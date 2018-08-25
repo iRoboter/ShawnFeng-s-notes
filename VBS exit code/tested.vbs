@@ -1,0 +1,1 @@
+wscript.Quit  999
